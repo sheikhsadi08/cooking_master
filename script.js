@@ -1,5 +1,7 @@
 // search event controller.
 const searchMeal = () => {
+  const start = document.getElementById("meal-item");
+  start.innerHTML = "";
   const userInput = document.getElementById('userInput');
   const getInput = userInput.value;
   console.log(getInput);
