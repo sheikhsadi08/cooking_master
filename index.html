@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="container">
+    <header>
+      <h1 class="header-text">Cooking Master</h1>
+
+          <!-- menu section -->
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Recipes</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+    </header>
+
+          <!-- input section -->
+    <div class="input-section">
+      <input id="userInput" value="" class="text-input" type="text" placeholder="Search For Meal...">
+      <button id="search-btn">Search</button>
+    </div>
+
+          <!-- meal section -->
+    <div id="mealSectionParent">
+      <div id="meal-item" class="meal-section">
+      </div>
+    </div>
+    <div class="meal-details">
+    </div>
+            <!-- message -->
+    <h1 id="alertMessage" class="message">Please Enter Food Name...</h1>
+    <h1 id="alertMessage2" class="message">No Food Found...</h1>
+  </section>
+
+        <!-- script.js file added -->
+  <script src="script.js"></script>
+</body>
+</html>
